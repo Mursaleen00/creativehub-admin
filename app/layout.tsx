@@ -1,2 +1,4 @@
 import type { ReactNode } from 'react';
-export default function RootLayout({ children }: { children: ReactNode }) { return (<html lang="en"><body>{children}</body></html>); }
+export default function RootLayout({ children }: { children: ReactNode }) {
+  return (<html lang="en"><body><style>{`body{font-family:system-ui,sans-serif;margin:0;color:#111}.wrap{max-width:900px;margin:0 auto;padding:24px}.head{display:flex;justify-content:space-between;align-items:center}.tabs{display:flex;gap:8px;margin:16px 0}.tabs button,.grid button,form button{padding:8px 14px;cursor:pointer}.tabs button.on{background:#111;color:#fff}.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.grid label{display:flex;flex-direction:column;gap:4px;font-size:14px}.grid .wide{grid-column:1/-1}input,select,textarea{padding:8px;border:1px solid #ccc;border-radius:4px}table{width:100%;border-collapse:collapse;margin-top:16px}th,td{text-align:left;padding:8px;border-bottom:1px solid #eee;font-size:14px}.err{color:#b00}`}</style>{children}</body></html>);
+}
