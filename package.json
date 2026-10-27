@@ -1,1 +1,15 @@
-{"dependencies":{"next":"15.0.0","react":"19.0.0","react-dom":"19.0.0"},"name":"creative-hub-mission-control","private":true,"scripts":{"build":"next build","dev":"next dev","start":"next start"},"version":"0.1.0"}
+{
+  "name": "creative-hub-mission-control",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "15.0.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  }
+}
